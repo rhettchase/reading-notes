@@ -12,7 +12,8 @@ Those with a growth mindset demonstrate a **love of learning** and believe that 
 3. Persist when faced with obstacles
 
 ### About the Author
-![Air Force Academy Logo](https://www.usafa.edu/app/uploads/USAFA-HPL-Logo-w-cutlines-300x268.jpg)
+![Rhett Chase headshot](rhettchase.jpg)
+![Air Force Academy Logo](USAFA-logo.jpg)
 
 Rhett lives in San Diego, CA. She is an `Air Force veteran`, she attended the U.S. Air Force Academy and served for 7 years as a Contracting Officer. 
 
