@@ -2,14 +2,19 @@
 
 My Code Fellows reading notes
 
-### Growth Mindset
+## Growth Mindset
 
 Those with a growth mindset demonstrate a **love of learning** and believe that *abilities can be developed* through grit, persistence and effort. In contrast, a fixed mindset believes intelligence and talent are *deterministic* for success. 
 
-#### Growth Mindset Reminders
+### Growth Mindset Reminders
+
 1. Embrace challenges
 2. Learn from mistakes and struggles
 3. Persist when faced with obstacles
+
+### Class Notes
+
+- [Class 01](class-01.md)
 
 ### About the Author
 ![Rhett Chase headshot](rhettchase.jpg)
