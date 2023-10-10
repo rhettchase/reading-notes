@@ -2,27 +2,17 @@
 
 My Code Fellows reading notes
 
-## Growth Mindset
+## About me
 
-Those with a growth mindset demonstrate a **love of learning** and believe that *abilities can be developed* through grit, persistence and effort. In contrast, a fixed mindset believes intelligence and talent are *deterministic* for success. 
+I'm an Air Force veteran, attending the Air Force Academy and going on to serve ~7 years as a Contracting Officer. I consider myself a life-long learner and have always enjoyed learning new skills. I got my MBA and was a managagement Consultant for 5 years, focusing on strategy and operations. 
 
-### Growth Mindset Reminders
+I have always loved technology and been curious about learning to code, considering it a creative way to solve problems.
 
-1. Embrace challenges
-2. Learn from mistakes and struggles
-3. Persist when faced with obstacles
-
-### Class Notes
-
-- [Class 01](class-01.md)
-- [Class 02](class-02.md)
-
-### About the Author
-![Rhett Chase headshot](rhettchase.jpg)
-![Air Force Academy Logo](USAFA-logo.jpg)
-
-Rhett lives in San Diego, CA. She is an `Air Force veteran`, she attended the U.S. Air Force Academy and served for 7 years as a Contracting Officer. 
-
-Rhett is a life long learner. She went on to get her `MBA` and become a Management Consultant for 5 years, focusing on strategy and operations. Rhett has always loved technology and been curious about learning to code, considering it a creative way to solve problems.
+![Rhett headshot](rhettchase.jpg)
 
 [Rhett's Github portfolio](https://github.com/rhettchase)
+
+### Class Notes Table of contents
+
+- [Class 01](102/class-01.md)
+- [Class 02](102/class-02.md)
