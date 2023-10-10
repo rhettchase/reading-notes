@@ -15,7 +15,7 @@
 - `cd [location]` - Change Directory (move) to specified location
   - If you run `cd` without any arguments then it will always take you back to your home (root) directory
 - `mkdir` - Creates a directory
-- `touch` - Used to create, change or modify a file
+- `touch` - Used to create a file without any content
   - `touch [file name]` creates a new file with the specified file name in the current directory
 
 ## Scenario
