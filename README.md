@@ -15,6 +15,7 @@ Those with a growth mindset demonstrate a **love of learning** and believe that 
 ### Class Notes
 
 - [Class 01](class-01.md)
+- [Class 02](class-02.md)
 
 ### About the Author
 ![Rhett Chase headshot](rhettchase.jpg)
