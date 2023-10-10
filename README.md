@@ -1,10 +1,12 @@
 # Code Fellows Reading Notes
 
-This site houses all of my Reading Notes of key learnings for Code Fellows software development courses.
+This site serves as a respository of all of my reading notes of key learnings for Code Fellows software development courses.
 
 ## About me
 
-I'm an Air Force veteran, attending the Air Force Academy and going on to serve ~7 years as a Contracting Officer. I consider myself a life-long learner and have always enjoyed learning new skills and seeing where my curiosity takes me. I got my MBA and was a managagement Consultant for 5 years, focusing on strategy and operations.
+Hi everyone, my name is Rhett Chase (she/her). I'm an Air Force veteran, commissioned through the Air Force Academy and going on to serve ~7 years as a Contracting Officer. I then pursued my MBA and was a managagement Consultant for 5 years, focusing on strategy and operations.
+
+>I consider myself a life-long learner and have always enjoyed learning new skills and seeing where my curiosity takes me.
 
 I have always loved technology and been curious about learning to code, considering it a creative way to solve problems.
 
@@ -12,9 +14,11 @@ I have always loved technology and been curious about learning to code, consider
 
 [Rhett's Github portfolio](https://github.com/rhettchase)
 
-### Class Notes Table of Contents
+[Find me on LinkedIn](https://www.linkedin.com/in/rhettchase)
 
-#### Code 102 Reading Notes
+## Class Notes Table of Contents
+
+### Code 102 Reading Notes
 
 - [Class 01](102/class-01.md)
 - [Class 02](102/class-02.md)
@@ -25,7 +29,7 @@ I have always loved technology and been curious about learning to code, consider
 - [Class 07](102/class-07.md)
 - [Class 08](102/class-08.md)
 
-#### Code 201 Reading Notes
+### Code 201 Reading Notes
 
 - [Class 01](201/class-01.md)
 - [Class 02](201/class-02.md)
