@@ -3,13 +3,13 @@
 ## What is Markdown
 
 - Markup language used to add formatting elements to plaintext documents and is one of the world's most popular markup language
-- For example, to make phrase bold, add two asterisks before and after it (e.g., **this text is bold**)
+- For example, to make a phrase bold, add two asterisks before and after it (e.g., **this text is bold**)
 
 ## Why do we use Markdown?
 
 - It can be used for everything and it's everywhere! (e.g., creation of websites, documents, notes, books, presentations, etc.) and many desktop and web-based applications support it
 - It's portable, which means it can be opened using most applications
-- It's platform independent, which means you can create Markdown-formatted text on any devise running any OS
+- It's platform-independent, which means you can create Markdown-formatted text on any device running any OS
 - It's **future proof** which means it can be read using a text editing application in the future
 
 ## Markdown how-to's & best practice
