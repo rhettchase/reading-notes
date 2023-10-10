@@ -1,6 +1,6 @@
 # Code Fellows Reading Notes
 
-My Code Fellows reading notes
+This site houses all of my Reading Notes of key learnings for Code Fellows software development courses.
 
 ## About me
 
@@ -12,9 +12,9 @@ I have always loved technology and been curious about learning to code, consider
 
 [Rhett's Github portfolio](https://github.com/rhettchase)
 
-### Class Notes Table of contents
+### Class Notes Table of Contents
 
-#### Code 102
+#### Code 102 Reading Notes
 
 - [Class 01](102/class-01.md)
 - [Class 02](102/class-02.md)
@@ -25,7 +25,7 @@ I have always loved technology and been curious about learning to code, consider
 - [Class 07](102/class-07.md)
 - [Class 08](102/class-08.md)
 
-#### Code 201
+#### Code 201 Reading Notes
 
 - [Class 01](201/class-01.md)
 - [Class 02](201/class-02.md)
