@@ -46,12 +46,13 @@ This information tells us that there are changes to be committed and that the fi
 After staging one or multiple files, you should commit the changes and record what you did within the commit message:
 
 ```text
-$ git commit -m “made change x,y,z because x”
+$git commit -m “made change x,y,z because x”
 ```
 
 ### Committing All Changes
+
 ```text
-$ git commit -a
+$git commit -a
 ```
 
 This command commits a snapshot of all modifications to tracked files in the working directory.

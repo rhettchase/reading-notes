@@ -2,7 +2,7 @@
 
 ## What is HTML and why do we use it?
 
-HTML (**H**yper**T**ext **M**arkup **L**anguage) is the code that is used to structure a web page and its content
+HTML (**H**yper**T**ext **M**arkup **L**anguage) is the code that is used to *structure* a web page and its content
 
 - Consists of a series of [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element), used to enclose (wrap) content to make it appear or act a certain way
 - A [tag](https://developer.mozilla.org/en-US/docs/Glossary/Tag) is used for creating an element
@@ -42,6 +42,36 @@ A typical HTML element includes:
 
 ```html
 <h1>This is a top level heading</h1>
+```
+
+- By adding semantic HTML tags to your pages, you provide additional information that helps define the roles and relative importance of the different parts of your page
+
+### Examples of semantic elements
+
+```html
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<form>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+  ```
+
+### Examples of elements that are *not* semantic
+
+```html
+<head>
+<b>
+<span>
+<div>
 ```
 
 ### Benefits from writing semantic markup
