@@ -15,7 +15,7 @@ HTML (**H**yper**T**ext **M**arkup **L**anguage) is the code that is used to s
 
 A typical HTML element includes:
 
-- Opening tag with some attributes: 
+- Opening tag with some attributes:
   - `Opening tag` consists of the name of the element, wrapped in opening and closing **angle brackets** and states where the elment begins or starts to take effect
   - `Attributes` contain extra information about the element
 - `Enclosed text content`: in this case, is just text
