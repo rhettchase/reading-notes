@@ -34,14 +34,14 @@ The **assignment (`=`)** operator is used to assign a value to a variable or p
 The `=` operator assigns a value to a variable
 
 ```js
-let x = 10;
-let x = 10 + y;
+let x = 10;
+let x = 10 + y;
 ```
 
 The `+=` (addition operator) adds a value to a variable
 
 ```js
-let x = 10;  
+let x = 10;  
 x += 5;
 // 10 + 5 
 // Expected output: 15
@@ -50,7 +50,7 @@ x += 5;
 The `*=` (multiplier operator) multiples a variable
 
 ``` js
-let x = 10;  
+let x = 10;  
 x *= 5;
 // 10 * 5 
 // Expected output: 50
