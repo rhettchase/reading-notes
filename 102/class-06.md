@@ -58,5 +58,6 @@ x *= 5;
 
 ## What is information received from the user called?
 
+- Information received from the user is called `user input` 
 - We use the `prompt()` function to ask for user input
 - User input is typically stored in a variable to use the information in the program
