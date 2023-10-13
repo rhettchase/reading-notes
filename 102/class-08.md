@@ -1,4 +1,4 @@
-# Class-07 Reading Notes: Operators and Loops
+# Class-08 Reading Notes: Operators and Loops
 
 ## What is an `expression` in JavaScript?
 
