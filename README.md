@@ -31,6 +31,7 @@ I have always loved technology and been curious about learning to code, consider
 
 ### Code 201 Reading Notes - Foundations of Software Development
 
+- [Pre-work: Prompt Engineering](201/prompt-engineering.md)
 - [Class 01](201/class-01.md)
 - [Class 02](201/class-02.md)
 - [Class 03](201/class-03.md)
