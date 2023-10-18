@@ -38,7 +38,7 @@ let value = toCelsius(77);
 // 25
 ```
 
-### Accessing a function with incorrect parameters can return an incorrect answer:
+### Accessing a function with incorrect parameters can return an incorrect answer
 
 ```js
 function toCelsius(f) {

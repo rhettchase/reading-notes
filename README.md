@@ -18,7 +18,7 @@ I have always loved technology and been curious about learning to code, consider
 
 ## Class Notes Table of Contents
 
-### Code 102 Reading Notes
+### Code 102 Reading Notes - Intro to Software Development
 
 - [Class 01](102/class-01.md)
 - [Class 02](102/class-02.md)
@@ -29,7 +29,7 @@ I have always loved technology and been curious about learning to code, consider
 - [Class 07](102/class-07.md)
 - [Class 08](102/class-08.md)
 
-### Code 201 Reading Notes
+### Code 201 Reading Notes - Foundations of Software Development
 
 - [Class 01](201/class-01.md)
 - [Class 02](201/class-02.md)
@@ -46,3 +46,7 @@ I have always loved technology and been curious about learning to code, consider
 - [Class 13](201/class-13.md)
 - [Class 14](201/class-14.md)
 - [Class 15](201/class-15.md)
+
+### Code 301 Reading Notes - Intermediate Software Development
+
+### Code 401 Reading Notes - Advanced Software Development
