@@ -192,10 +192,18 @@ Some of the benefits from writing semantic markup:
 
 Yes, you can add JavaScript to an HTML document by using the `<script>` tag
 
+- you can add JavaScript internal to the HTML document:
+
 ```js
 <script>
   // JavaScript goes here
 </script>
+```
+
+- you can add JavaScript external to the HTML document by referencing an external `.js` file in the HTML document using the `<script>` tag:
+
+```js
+<script src="script.js" defer></script>
 ```
 
 ## Things I want to know more about
