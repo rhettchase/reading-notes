@@ -192,7 +192,7 @@ Some of the benefits from writing semantic markup:
 
 Yes, you can add JavaScript to an HTML document by using the `<script>` tag
 
-- you can add JavaScript internal to the HTML document:
+- you can add **Internal JavaScript**, which is internal to the HTML document:
 
 ```js
 <script>
@@ -200,11 +200,27 @@ Yes, you can add JavaScript to an HTML document by using the `<script>` tag
 </script>
 ```
 
-- you can add JavaScript external to the HTML document by referencing an external `.js` file in the HTML document using the `<script>` tag:
+- you can add **External JavaScript**, which is external to the HTML document by referencing an external `.js` file in the HTML document using the `<script>` tag:
 
 ```js
 <script src="script.js" defer></script>
 ```
+
+- you can use **Inline JavaScript handlers** that is bits of actual Javascript code living inside HTML. However, this is considered bad practice and it is recommended to use `addEventListener` instead, which is a pure JavaScript construct
+
+```html
+<script src="script.js" defer></script>
+```
+
+```js
+function createParagraph() {
+  const para = document.createElement("p");
+  para.textContent = "You clicked the button!";
+  document.body.appendChild(para);
+}
+```
+
+- **Event Attributes** are used in HTML to let events trigger actions in a browser, like starting a JavaScript when a user clicks on an element.
 
 ## Things I want to know more about
 
