@@ -1,4 +1,4 @@
-# Class-04 Reading Notes: Images, Color, Text
+# Class-05 Reading Notes: Images, Color, Text
 
 ## HTML Media
 
@@ -106,7 +106,7 @@ em {
   - To add spacing between the characters in the `h1` element, you can use the `letter-spacing` property.
 - adjust the `padding `or `margin`.
   - Padding adds space inside the element, while margin adds space outside the element.
-  
+
 ```css
 h1 {
   letter-spacing: 2px; /* Increase the spacing between characters by 2 pixels */
