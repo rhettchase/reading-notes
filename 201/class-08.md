@@ -1,4 +1,4 @@
-# Class-08: CSS Layout
+# Class-08 Reading Notes: CSS Layout
 
 ## CSS - Flexbox
 
