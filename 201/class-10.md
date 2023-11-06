@@ -28,7 +28,7 @@
 
 - being able to detect bugs early and often (in my code but in others' code as well) will be critical to my long-term developer goals. it allows you to fix issues and move on to productive works such as building new features
 
-## The JavaScript Depugger
+## The JavaScript Debugger
 
 *sources:* [The JavaScript Debugger](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools#the_javascript_debugger), chatGPT
 
