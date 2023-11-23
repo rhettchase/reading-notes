@@ -46,8 +46,24 @@ I have always loved technology and been curious about learning to code, consider
 - [Class 12](201/class-12.md)
 - [Class 13](201/class-13.md)
 - [Class 14](201/class-14.md)
-- [Class 15](201/class-15.md)
 
 ### Code 301 Reading Notes - Intermediate Software Development
+
+- [Pre-work: Dive into React](301/react-overview.md)
+- [Class 01](301/class-01.md)
+- [Class 02](301/class-02.md)
+- [Class 03](301/class-03.md)
+- [Class 04](301/class-04.md)
+- [Class 05](301/class-05.md)
+- [Class 06](301/class-06.md)
+- [Class 07](301/class-07.md)
+- [Class 08](301/class-08.md)
+- [Class 09](301/class-09.md)
+- [Class 10](301/class-10.md)
+- [Class 11](301/class-11.md)
+- [Class 12](301/class-12.md)
+- [Class 13](301/class-13.md)
+- [Class 14](301/class-14.md)
+- [Class 15](301/class-15.md)
 
 ### Code 401 Reading Notes - Advanced Software Development
