@@ -152,3 +152,4 @@ let result = condition ? 'Value for true' : 'Value for false';
     }
 // ternary operator
 (x === y) ? console.log(true) : console.log(false);
+```
