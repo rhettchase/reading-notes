@@ -1,4 +1,4 @@
-Class-05 Reading Notes: Thinking in React & Higher-order functions
+# Class-05 Reading Notes: Thinking in React & Higher-order functions
 
 source: [React Docs - Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
