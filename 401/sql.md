@@ -110,8 +110,6 @@ ORDER BY longitude ASC;
 - JOIN Clause: Combines rows from different tables based on a shared key.
 - INNER JOIN: Matches rows with the same key in both tables.
 
-![lesson 6](img/sql-06.png)
-
 #### Select query with INNER JOIN on multiple tables
 
 ```sql
@@ -135,3 +133,152 @@ FROM movies
     ON movies.id = boxoffice.movie_id
 WHERE international_sales > domestic_sales;
 ```
+
+![lesson 6](img/sql-06.png)
+
+### SQL Lesson 13: Inserting Rows
+
+- Schema: Describes the table structure and data types for each column.
+- `INSERT` Statement: Used to add new data to a table.
+- Forward Compatibility: Inserting specific columns allows forward compatibility when new columns are added.
+
+#### Insert statement with values for all columns
+
+```sql
+INSERT INTO mytable
+VALUES (value_or_expr, another_value_or_expr, …),
+       (value_or_expr_2, another_value_or_expr_2, …),
+       …;
+```
+
+#### Insert statement with specific columns
+
+inserting values this way has the benefit of being forward compatible. For example, if you add a new column to the table with a default value, no hardcoded `INSERT` statements will have to change as a result to accommodate that change.
+
+```sql
+INSERT INTO mytable
+(column, another_column, …)
+VALUES (value_or_expr, another_value_or_expr, …),
+      (value_or_expr_2, another_value_or_expr_2, …),
+      …;
+```
+
+Add the studio's new production, **Toy Story 4** to the list of movies (you can use any director)
+
+```sql
+INSERT INTO movies VALUES (4, "Toy Story 4", "El Directore", 2015, 90);
+```
+
+![lesson 13](img/sql-13.png)
+
+### SQL Lesson 14: Updating Rows
+
+- `UPDATE` Statement: Modifies existing data in a table based on specified conditions.
+
+Syntax:
+
+```sql
+UPDATE mytable
+SET column = value_or_expr, 
+    other_column = another_value_or_expr, 
+    …
+WHERE condition;
+```
+
+> helpful tip is to always write the constraint first and test it in a `SELECT` query to make sure you are updating the right rows, and only then writing the column/value pairs to update.
+
+Both the title and director for Toy Story 8 is incorrect! The title should be "Toy Story 3" and it was directed by **Lee Unkrich**
+
+```sql
+UPDATE movies
+SET title = "Toy Story 3", director = "Lee Unkrich"
+WHERE id = 11;
+```
+
+![lesson 14](img/sql-14.png)
+
+### SQL Lesson 15: Deleting Rows
+
+- `DELETE` Statement: Removes data from a table based on specified conditions.
+
+Syntax:
+
+```sql
+DELETE FROM mytable
+WHERE condition;
+```
+
+Andrew Stanton has also left the studio, so please remove all movies directed by him.
+
+```sql
+DELETE FROM movies
+WHERE director = "Andrew Stanton"
+```
+
+> Precaution: Always run the constraint in a SELECT query first to ensure proper rows are being deleted.
+
+![lesson 15](img/sql-15.png)
+
+### SQL Lesson 16: Creating Tables
+
+- CREATE TABLE Statement: Establishes a new table with defined columns, data types, constraints, and default values.
+- Table Data Types: INTEGER, BOOLEAN, FLOAT, DOUBLE, REAL, CHARACTER, VARCHAR, TEXT, DATE, DATETIME, BLOB.
+- Table Constraints: PRIMARY KEY, AUTOINCREMENT, UNIQUE, NOT NULL, CHECK (expression), FOREIGN KEY.
+
+Example schema:
+
+```sql
+CREATE TABLE movies (
+    id INTEGER PRIMARY KEY,
+    title TEXT,
+    director TEXT,
+    year INTEGER, 
+    length_minutes INTEGER
+);
+```
+
+![lesson 16](img/sql-16.png)
+
+### SQL Lesson 17: Altering Tables
+
+- `ALTER TABLE` Statement: Adds, removes, or modifies columns and constraints.
+
+#### Altering table to add new column(s)
+
+```sql
+ALTER TABLE mytable
+ADD column DataType OptionalTableConstraint 
+    DEFAULT default_value;
+```
+
+#### Altering table to remove column(s)
+
+```sql
+ALTER TABLE mytable
+DROP column_to_be_deleted;
+```
+
+#### Altering table name
+
+```sql
+ALTER TABLE mytable
+RENAME TO new_table_name;
+```
+
+> Each database implementation supports different methods of altering their tables, so it's always best to consult your database docs before proceeding: [MySQL](https://dev.mysql.com/doc/refman/5.6/en/alter-table.html "MySQL Alter Table"), [Postgres](http://www.postgresql.org/docs/9.4/static/sql-altertable.html "Postgres Alter Table"), [SQLite](https://www.sqlite.org/lang_altertable.html "SQLite Alter Table"), [Microsoft SQL Server](https://msdn.microsoft.com/en-us/library/ms190273.aspx "Microsoft SQL Server Alter Table").
+
+![lesson 17](img/sql-17.png)
+
+### SQL Lesson 18: Dropping Tables
+
+- `DROP TABLE` Statement: Removes an entire table, including data and metadata.
+
+Syntax:
+
+```sql
+DROP TABLE IF EXISTS mytable;
+```
+
+Dependency Consideration: If a table has dependent tables (e.g., with FOREIGN KEY dependencies), address dependencies before dropping the table.
+
+![lesson 18](img/sql-18.png)
