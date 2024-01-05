@@ -68,6 +68,7 @@ I have always loved technology and been curious about learning to code, consider
 
 ### Code 401 Reading Notes - Advanced Software Development in Python
 
+- [SQL pre-work](401/sql.md)
 - [Class 01](401/class-01.md)
 - [Class 02](401/class-02.md)
 - [Class 03](401/class-03.md)
