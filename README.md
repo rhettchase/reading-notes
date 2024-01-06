@@ -70,6 +70,7 @@ I have always loved technology and been curious about learning to code, consider
 
 - [Pre-work: SQL](401/sql.md)
 - [Pre-work: Terminal](401/terminal.md)
+- [Pre-work: Growth Mindset](401/growth-mindset.md)
 - [Class 01](401/class-01.md)
 - [Class 02](401/class-02.md)
 - [Class 03](401/class-03.md)
