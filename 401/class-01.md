@@ -86,3 +86,9 @@ new_tuple = my_tuple + (4, 5)  # Creating a new tuple with updated values
 
 - Assignment is the same for all values.
 - Aliasing can make it seem different.
+
+## Things I want to learn more about
+
+- Function arguments are assignments
+- How to avoid the surprise of mutable aliasing
+- What it means to modify something "in-place"
