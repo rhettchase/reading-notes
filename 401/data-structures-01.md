@@ -1,30 +1,32 @@
 # Class 01 Reading Notes: Data Structures and Algorithms
 
-sources:
+sources: links below, chatGPT
+## Watch
 
-- [Act like you make $1000/hr](https://anthony-moore.medium.com/pretend-your-time-is-worth-1-000-hour-and-youll-become-100x-more-productive-6ab2302b8e8c)
-- [How to think like a programmer](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
-- [Solving Problems](https://simpleprogrammer.com/solving-problems-breaking-it-down/)
-- [The 5 Whys](https://www.mindtools.com/pages/article/newTMC_5W.htm)
-- [The Super Mario Effect](https://www.youtube.com/watch?v=9vJRopau0g0)
+- [Basic Recursion](https://www.youtube.com/watch?v=vPEJSJMg4jY)
+- [Data Structures in 15 Minutes](https://www.youtube.com/watch?v=sVxBVvlnJsM)
+- [Big O Explained](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 
-## What’s the one thing I bring to this career (and a potential employer) that nobody else can?
+## Read
 
-- experience solving business problems with limited information:
-  - as a management consultant I have picked up problems that a company has decided to hire a 3rd party for. Typically it meant dealing with ambiguity, learning on the job, framing an analysis and presenting the recommendation to a client. I see many overlaps with the problem-solving strategies in programming
-- As an Air Force officer I learned how to stay calm under pressure, team building and leadership
+- [Basic Data Structures](https://towardsdatascience.com/8-common-data-structures-every-programmer-must-know-171acf6a1a42)
+- [Why Big O](https://web.archive.org/web/20230207075759/https://triplebyte.com/blog/why-you-should-learn-big-o-and-stop-hacking-your-way-through-algorithms)
 
-## What are 3 things I’ll start doing to “un-stick” myself whenever I get stuck on tough piece of code, logic, or feature?
+## What is 1 of the more important things you should consider when deciding which data structure is best suited to solve a particular problem?
 
-- make sure I understand the problem statement
-- break down the problem into smaller sub problems (and inputs/outputs)
-  - include pseudo code
-  - “Given input X, what are the steps necessary to return output Y?”
-- Debug: go step by step through solution to try to find where I went wrong
-- Take a step back and reassess
-- Start fresh if needed
+- how well an operation scales / efficiency of the operations that will be performed on the data.
+	- Different data structures excel in different types of operations, and choosing the right one can significantly impact the performance of your code.
+- Big O: how time scales with respect to some input variables
+	- different steps get added (e.g., add up the run times for each step)
+	- drop constants - looking for things scale
+	- different inputs => different variables
+	- drop non-dominant terms
+- 5 key data structures: 1) Linked lists, 2) Arrays, 3) Hash tables, 4) Stacks and queues, 5) Graphs and trees
+## How can we ensure that we’ll avoid an infinite recursive call stack?
+
+- always define a base case - condition under which the function stops calling itself
+- progress towards base case - recursive call brings you closer to base case
 
 ## Things I want to know more about
 
-- What is the right format and better tool to smoothly do the whiteboarding? InVision is pretty clunky
-- Since you start off drawing first, what are some strategies to recognize/test if the potential steps are on the right track?
+- what are some examples of good base case for recursion?
