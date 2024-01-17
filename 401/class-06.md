@@ -1,4 +1,4 @@
-# Class 05 Reading Notes: Random Module, Test Coverage, Big O Notation
+# Class 06 Reading Notes: Random Module, Test Coverage, Big O Notation
 
 source: links below, chatGPT
 
