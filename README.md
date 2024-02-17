@@ -94,7 +94,6 @@ I have always loved technology and been curious about learning to code, consider
 - [Class 27](401/class-27.md)
 - [Class 28](401/class-28.md)
 - [Class 29](401/class-29.md)
-- [Class 30](401/class-30.md)
 - [Class 31](401/class-31.md)
 - [Class 32](401/class-32.md)
 - [Class 33](401/class-33.md)
