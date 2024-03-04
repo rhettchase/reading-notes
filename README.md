@@ -103,7 +103,6 @@ I have always loved technology and been curious about learning to code, consider
 - [Class 37](401/class-37.md)
 - [Class 38](401/class-38.md)
 - [Class 39](401/class-39.md)
-- [Class 40](401/class-40.md)
 - [Class 41](401/class-41.md)
 - [Class 42](401/class-42.md)
 - [Class 43](401/class-43.md)
