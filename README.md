@@ -105,6 +105,7 @@ I have always loved technology and been curious about learning to code, consider
 - [Class 39](401/class-39.md)
 - [Class 41](401/class-41.md)
 - [Class 42](401/class-42.md)
+- [Class 42 - Ethics](401/class-42-ethics.md)
 - [Class 43](401/class-43.md)
 - [Class 44](401/class-44.md)
 - [Class 45](401/class-45.md)
