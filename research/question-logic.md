@@ -146,3 +146,20 @@ def get_next_question(current_question_id: int, response: str) -> Union[int, str
     return question_mapping.get(response, question_mapping.get("default", "No further questions"))
 
 ```
+
+API Endpoints to fetch questions and process responses
+
+```python
+@app.get("/questions/{question_id}")
+async def get_question(question_id: int):
+    question = next((q for q in QUESTION_FLOW if q['id'] == question_id), None)
+    if not question:
+        raise HTTPException(status_code=404, detail="Question not found")
+    return question
+
+@app.post("/next-question/")
+async def next_question(answer: dict):
+    result = evaluate_rules(answer['question_id'], answer['response'])
+    return result
+
+```
