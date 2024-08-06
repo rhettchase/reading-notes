@@ -34,15 +34,29 @@ def get_next_question(current_question_id: int, response: str) -> Optional[int]:
     return None
 
 ```
-## Database-drive Workflow
+## Database-driven Workflow
 
 Overview:
 Store question flow logic in a database, allowing dynamic changes without altering the code. This is useful for applications where workflows need frequent updates or customization.
 
 Implementation:
 
-Tables: Create tables to define questions, responses, and next questions.
+Tables: Create tables to define questions, responses, and rules (that dictate next questions based on responses).
 Logic: Fetch the next question based on the current question ID and response from the database.
+
+Implementing the Workflow
+Backend Logic
+Fetching the Next Question:
+
+- When a response is submitted, query the Rules table for rules associated with the current question.
+- Evaluate each rule to see if its condition is met.
+- If a condition is met, fetch the next question using next_question_id.
+- If no conditions are met, return the associated message or default message.
+
+Updating the Database:
+
+- Insert the user's response into the Answers table.
+- Track the progress of each user through the questionnaire by storing a session or user ID with each response.
 
 Example schema:
 ```sql
@@ -58,6 +72,26 @@ CREATE TABLE question_flows (
     next_question_id INT,
     PRIMARY KEY (question_id, response)
 );
+```
+
+Query Rules Table:
+
+```python
+def get_rules_for_question(db: Session, question_id: int):
+    return db.query(Rule).filter(Rule.question_id == question_id).all()
+
+def get_question(db: Session, question_id: int):
+    return db.query(Question).filter(Question.id == question_id).first()
+
+```
+
+Evaluate Conditions:
+```python
+def evaluate_rules(response: str, rules: List[Rule]):
+    for rule in rules:
+        if eval(rule.condition):  # Using eval for simplicity; ensure this is safe
+            return rule.next_question_id or rule.message
+    return "No valid rule found"
 
 ```
 
